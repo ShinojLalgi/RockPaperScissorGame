@@ -3,7 +3,7 @@ import mediapipe as mp
 import random
 import time
 
-class HandShapeGame:
+class RockPaperScissorsGame:
     def __init__(self):
         self.mp_hands = mp.solutions.hands
         self.mp_drawing = mp.solutions.drawing_utils
@@ -166,5 +166,5 @@ class HandShapeGame:
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    game = HandShapeGame()
+    game = RockPaperScissorsGame()
     game.run_game()
