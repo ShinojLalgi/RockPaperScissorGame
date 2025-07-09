@@ -10,7 +10,7 @@ A real-time Rock-Paper-Scissors using hand gesture detection with **MediaPipe** 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/ShinojLalgi/RockPaperScissorsGame.git
+git clone https://github.com/shinojlp/RockPaperScissorsGame.git
 cd RockPaperScissorsGame
 pip install opencv-python mediapipe
 python rps.py
